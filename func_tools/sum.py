@@ -1,4 +1,4 @@
 def sum(a , b) :
-    a = input("Enter first number")
-    b = input("Enter second number")
+    a = input.int("Enter first number : ")
+    b = input.int("Enter second number : ")
     return a + b
