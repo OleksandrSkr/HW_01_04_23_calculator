@@ -15,10 +15,7 @@ while is_running :
         a = input("Enter first number : ")
         b = input("Enter second number : ")
         from func_tools.calcs import calcs
-            
-             
-
-    
+     
     elif user_choose == "n" :
         is_running = False
     else :

@@ -22,6 +22,6 @@ def calcs(a , b , operation):
     if operation == "+":
         from func_tools.sum import sum
         resalt = sum
-        print (resalt)
+        return print (resalt)
     
     
