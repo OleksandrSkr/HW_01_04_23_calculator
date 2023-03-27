@@ -1,4 +1,5 @@
 def sum(a , b) :
-    a = input.int("Enter first number : ")
-    b = input.int("Enter second number : ")
-    return a + b
+    from calcs import a
+    from calcs import b
+    resalt = a + b
+    return resalt
