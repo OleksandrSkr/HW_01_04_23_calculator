@@ -1,4 +1,4 @@
-def calcs(a , b , operation):
+#def calcs(a , b , operation):
 #from func_tools.sum import sum
 #from func_tools.subtruct import subtract
 #from func_tools.multiply import multiply
@@ -15,13 +15,11 @@ def calcs(a , b , operation):
 #    elif operation == "/" :
 #        from divide import divide
 
-    from app import operation
-    from app import a
-    from app import b
-
-    if operation == "+":
-        from func_tools.sum import sum
-        resalt = sum
-        return print (resalt)
-    
-    
+#    from app import operation
+#    from app import a
+#    from app import b
+#
+#    if operation == "+":
+#        from func_tools.sum import sum
+#        resalt = sum
+#        return print (resalt)
