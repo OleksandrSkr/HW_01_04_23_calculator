@@ -45,6 +45,7 @@ while is_running :
                 print("Wrong namber")
         
         else:
+            print ("You mast choose a math operation. Tru again!")
             continue
      
     elif user_choose == "n" :
