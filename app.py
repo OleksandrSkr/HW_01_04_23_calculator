@@ -7,12 +7,12 @@ while is_running :
         a = int(input("Enter first number : "))
         b = int(input("Enter second number : "))
         operation = input("What math operation do you want to perform - '+' , '-' , '*' , '/' , '^' ? ")
-#      
+      
         if operation == "+":
             from func_tools.sum import sum
             resalt = sum(a , b)
             print(a , "+" , b , "=" , resalt)
-#            print(resalt)
+
         if operation == "-":
             from func_tools.subtruct import subtract
             resalt = subtract(a , b)
