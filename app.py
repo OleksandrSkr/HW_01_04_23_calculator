@@ -31,8 +31,8 @@ while is_running :
             resalt_a = square(a , 2)
             resalt_b = square(b , 2)
             resalt = degree(a, b)
-            print(a , "^2" , resalt_a)
-            print(b , "^2" , resalt_b)
+            print(a , "^2" , "=" , resalt_a)
+            print(b , "^2" , "=" , resalt_b)
             print(a , "^" , b , "=" , resalt)
         
      
