@@ -26,13 +26,13 @@ while is_running :
             resalt = divide(a , b)
             print(a , "/" , b , "=" , resalt)
         if operation == "^":
-#            from func_tools.square import square
+            from func_tools.square import square
             from func_tools.degree import degree
-#            resalt = square(a , 2)
-#            resalt_b = square(b , 2)
+            resalt_a = square(a , 2)
+            resalt_b = square(b , 2)
             resalt = degree(a, b)
-#            print(a , "^2" , resalt)
-#            print(b , "^2" , resalt_b)
+            print(a , "^2" , resalt_a)
+            print(b , "^2" , resalt_b)
             print(a , "^" , b , "=" , resalt)
         
      
